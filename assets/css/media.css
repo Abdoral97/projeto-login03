@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+@media screen and (min-width:600px) and (max-width:992px) {
+    body {
+        background: linear-gradient(180deg, #9BDAF2 0%, #0F398C 100%);
+    }
+    
+    section {
+        background-color: #051A59;
+        border-radius: 6px;
+        width: 446px;
+        transition: 0.4s;
+    }
+}
+
+@media screen and (min-width:992px){
+    body{
+        background: linear-gradient(90deg, #9BDAF2 0%, #0F398C 100%);
+    }
+    section {
+        background-color: #051A59;
+        border-radius: 6px;
+        width: 446px;
+        height: 460px;
+        transition: 0.4s;  
+    }
+}
